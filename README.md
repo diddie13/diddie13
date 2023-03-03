@@ -145,11 +145,20 @@ Exercise
 
     - The image "diddie/container-db_users" was created with has mysql already installed with data inserted from the file "db_users.sql". The .sql file was used in the Dockerfile. 
     - The database could have been created directly on the cloud provider.
+![1-db-users](https://user-images.githubusercontent.com/68625361/222636353-045fa423-fb15-460f-8c8c-32629f27354a.png)
+![2-db-users](https://user-images.githubusercontent.com/68625361/222636367-6c698fcb-3e61-4175-88f6-3fa279307066.png)
+![3-db-users](https://user-images.githubusercontent.com/68625361/222636379-95d99cb3-24e3-4a10-bf5e-6606db6a1d23.png)
+
 
 - Container 2: This container runs code that runs a small API that returns shifts from a database.
 
     - The image "diddie/container-db-shifts" was created with has mysql already installed with data inserted from the file "db_shifts.sql". The .sql file was used in the Dockerfile.
     - The database could have been created directly on the cloud provider.
+![1-db-shifts](https://user-images.githubusercontent.com/68625361/222636253-8d4ee895-f117-478e-8adc-d76937b14cd6.png)
+![2-db-shifts](https://user-images.githubusercontent.com/68625361/222636313-839bb2b9-08f6-4892-8325-5f0d4b1b740c.png)
+![3-db-shifts](https://user-images.githubusercontent.com/68625361/222636324-4ff63a4c-a9c5-41b3-b1d7-a4ae00e9abf4.png)
+
+    
     
 2.) For the best user experience auto scale this service when the average CPU reaches 70%.
 ##### NOTE 1: As the type of scaling was not mentioned, was created an hpa for both.
