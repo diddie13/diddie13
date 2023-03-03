@@ -4,7 +4,7 @@ Assume you’re running on your favorite cloud (Azure, AWS, GCP) - you don’t h
 Create a README.md that outlines your line of thinking for the solution.
 Create plain Kubernetes resources (yaml or json). Please return this file in your response with any other materials you want to share with us.
 
-##### Cluster criado:
+##### Cluster created:
 "cluster-thinkon" 
 
 ![alt text](https://user-images.githubusercontent.com/68625361/222587868-0eb68673-e686-4976-979f-42cdf75d3cd8.png)
@@ -12,7 +12,7 @@ Create plain Kubernetes resources (yaml or json). Please return this file in you
 ![alt text](https://user-images.githubusercontent.com/68625361/222567944-c5ea79fa-8a18-46f4-9ccf-b4910dfc7c0d.png
 )
 
-##### Arquivos yml criados:
+##### yml files created:
 
 - __pod_users.yml__ (File that creates a pod using the image "diddie/container-db_users")
 
@@ -126,7 +126,7 @@ Each system you’re deploying has its own isolated database. You don’t have t
     You can use any docker image you’d like for your containers. It’s just an example and does not have to work. Any, say, default php docker you can deploy on a pod. What the container it is, does not matter - but we’ll be talking about two different containers in the exercise, one for users, and one for shifts.
     Assume daily bell-curve scaling. High traffic during the day, low traffic during the night
 
-Foram criadas as seguintes imagens:
+The following images were created:
 ###### Container for users: 
 - diddie/container-db_users 
      (image with mysql and it was uploaded to the Docker hub)
