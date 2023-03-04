@@ -181,7 +181,8 @@ NOTE 3: A load balance service was also created for both.
 ![alt text](https://user-images.githubusercontent.com/68625361/222605221-78f7d515-3714-4377-a9c9-8fddf68ae4d1.png)
 
 3.) Ensure the deployment can handle rolling deployments and rollbacks.
-- Use the "replicaSet"
+- For the "rollback", one of the ways before deploying to production is to "duplicate" the environment and perform the migration. After the update, it is enough to "redirect" the configurations to the new environment to carry out the tests, if there is any problem, the implantation can be easily reverted to the previous copy. Or just performing the "rollout undo" command referenced to the desired version.
+- For deployment, continuous updating can be used, as it offers a way to gradually deploy the new version of the application in the cluster. It replaces the pods during several phases, and this used together with the "replicas", means that we will always have updated pods and "backup" pods.
 
 4.) Your development team should not be able to run certain commands on your k8s cluster, but you want them to be able to deploy and roll back. What types of IAM controls do you put in place?
 - Creating a new custom group and policy with the necessary settings for deployment and rollback and some "extra features", deploy and rollback is too vague and leaves no room for post-deployment analysis, among other types of features such as logging.
