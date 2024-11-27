@@ -1,14 +1,13 @@
-Deploying...
 
 <p align="center">
- <img src="https://media1.tenor.com/m/-buzIaq-QeoAAAAd/code-coding.gif" width="25%" height="25%" >  
+ <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXp1dTBnaTc5dTZzd25jMWdvc2ViOW8zOHVqY3ZzdTZqcGhuaWk5OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uIJBFZoOaifHf52MER/giphy.webp" width="25%" height="25%" >  
 </p>
 
 # Hello world to My GitHub Profile! 👋
 
 Hello! I’m **Dgidgio Diddie Gomes**, a passionate DevOps engineer with a strong foundation in cloud technologies, automation, and continuous integration and delivery. I'm excited to share my projects and knowledge with you!
 
-## About Me
+## About Me 
 
 I specialize in DevOps practices and have a keen interest in leveraging cloud platforms to enhance software development processes. My goal is to streamline operations and improve deployment efficiency.
 
@@ -38,7 +37,7 @@ I hold several industry-recognized certifications that validate my skills in Dev
 ## :muscle: Key Skills  
 
 <!--- A esquerda  <h3 align="center">Automation Tools1</h3> ---> 
-<h3 align="left">Automation Tools</h3>
+<h3 align="left">Configuration Management/Automation Tools</h3>
   <p align="left">
  <!-- terraform,jenkins,ansible --> <img src="https://skillicons.dev/icons?i=terraform,jenkins,ansible" align="center" />
   </p>
@@ -90,5 +89,3 @@ I hold several industry-recognized certifications that validate my skills in Dev
   <!-- git, github --> <img src="https://skillicons.dev/icons?i=git,github" align="center">
   </p>
 ---
-
-*This README was last updated on [Insert Date Here].*
